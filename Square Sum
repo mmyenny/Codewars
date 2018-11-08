@@ -1,0 +1,11 @@
+const squareSum = (numbers) => {
+  let sum = 0
+  let squaredNumbers = numbers.map(number => {
+   return number * number
+  })
+ 
+  squaredNumbers.forEach(number => {
+    sum = sum + number
+  })
+  return sum
+}

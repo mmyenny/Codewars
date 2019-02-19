@@ -20,3 +20,9 @@ function makeNegative(num) {
     return num
   }
 }
+
+// OR
+
+function makeNegative(num) {
+  return -Math.abs(num)
+}

@@ -5,5 +5,5 @@
 # solution('world') # returns 'dlrow'
 
 def solution(str)
-  str.reverse!
+  str.reverse
 end

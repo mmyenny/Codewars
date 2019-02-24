@@ -15,5 +15,5 @@ function greet(name) {
 // OR
 
 function greet(name) {
-  return 'Hello, ' + (name == 'Johnny' ? 'my love' : name) + '!'
+  return 'Hello, ' + (name === 'Johnny' ? 'my love' : name) + '!'
 }
